@@ -4,7 +4,15 @@
 
 @import url("./global/header.css");
 
+/* UTILIDADES */
+
 @import url("./utilidades/componentes.css");
 
+/* HOME */
+
 @import url("./home/introducao.css");
+
+/* BICICLETAS */
+
+@import url("./bicicletas/bicicletas-lista.css");
 
