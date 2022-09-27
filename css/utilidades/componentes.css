@@ -30,6 +30,24 @@
   color:var(--cor-2);
 }
 
+.botao.seta {
+  display:flex;
+  align-items: center;
+}
+
+.botao.seta:after {
+  content: "";
+  display: inline-block;
+  width:18px;
+  height:10px;
+  margin-left:12px;
+  background:url("../../img/icones/seta.svg");
+  transition:transform .2s;
+}
+.botao.seta:hover:after {
+  transform: translate(4px)
+}
+
 .botao:hover {
   background:linear-gradient(#FFB60b, #e59317);
 }
