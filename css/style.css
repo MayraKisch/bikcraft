@@ -38,6 +38,9 @@
 @import url("./seguros/vantagens.css");
 @import url("./seguros/perguntas.css");
 
+/* ORÇAMENTO */
+@import url("./orcamento/orcamento.css");
+
 /* TERMOS */
 
 @import url("./termos/termos.css");
